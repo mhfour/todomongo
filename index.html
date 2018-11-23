@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <title>Todo List</title>
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">Todo List</h2>
+        <input type="text" id="myInput" placeholder="What do you need to do...?">
+            <button onclick="newElement()" id="Add" class="addBtn">Add</button>
+        <button onclick="updateItem()" id="Update" class="updateBtn">Update</button>
+        <button onclick="cancelFunction()" id="Cancel" class="cancelBtn">Cancel</button>
+    </div>
+    <input type="text" id="searchInput" onkeyup="myFilter()" placeholder="Search a todo...">
+    <button id="sortBtn" onclick="sortList()">Sort Todo</button>
+
+    <ul id="myUL"></ul>
+</body>
+<script src="index.js"></script>
+
+</html>

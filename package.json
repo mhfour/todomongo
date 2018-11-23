@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "author": "hilmi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "list.js": "^1.5.0",
+    "mongodb": "^3.1.10",
+    "nodemon": "^1.18.5",
+    "path": "^0.12.7"
+  }
+}
